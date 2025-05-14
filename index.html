@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Zain&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حيّ السلام</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen">
+    <img src="ll.png" alt="شعار حيّ السلام" class="splash-logo">
+  </div>
+
+  <div class="overlay">
+    <img src="m3.png" alt="خلفية حي السلام" class="background">
+
+    <div class="content">
+      <div class="info-card">
+        <img src="ll.png" alt="شعار حي السلام" class="logo">
+        <p class="subtitle">الإصدار قريبًا</p>
+        <h1 class="headline">
+          <span class="highlighted-word">حيّ السلام</span> أحد النماذج العمرانية الرائدة التي تُجسد تطلعات رؤية عُمان 2040 نحو مدن ذكية، مستدامة وذات جودة حياة عالية،
+        </h1>
+
+        <div class="highlight-wrapper">
+          <h2 class="highlight">في مكان واحد</h2>
+          <div class="underline"></div>
+        </div>
+
+        <p class="description">كل شيء تحتاجه في مكان واحد داخل حيّ السلام</p>
+        <p class="description">راسلنا علي واتساب</p>
+        <a href="https://wa.me/96898294884" target="_blank" class="whatsapp-button">WhatsApp</a>
+      </div>
+
+      <div class="footer-bar">
+        <img src="im2.png" alt="شعار صروح البريمي" class="footer-logo right-logo">
+        <img src="im1.png" alt="شعار وزارة الإسكان والتخطيط العمراني" class="footer-logo left-logo">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener("load", function () {
+      setTimeout(function () {
+        const splash = document.getElementById("splash-screen");
+        splash.style.opacity = 0;
+        setTimeout(() => {
+          splash.style.display = "none";
+        }, 1000);
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
