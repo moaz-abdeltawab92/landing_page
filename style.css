@@ -48,10 +48,6 @@ body, html {
   color: #d1ae6c;
 }
 
-.subtitle {
-  font-size: 20px;
-  margin-bottom: 4px;
-}
 
 .headline {
   font-size: 25px;
@@ -142,7 +138,6 @@ body, html {
   from { opacity: 0; transform: scale(0.95); }
   to { opacity: 1; transform: scale(1); }
 }
-/* موبايل وتابلت */
 @media (max-width: 768px) {
   .info-card {
     padding: 15px;
@@ -193,7 +188,6 @@ body, html {
   }
 }
 
-/* موبايل صغير جدًا */
 @media (max-width: 480px) {
   .headline {
     font-size: 16px;
